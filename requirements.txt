@@ -1,0 +1,19 @@
+# RDSurv reproducible environment
+# Reproducible RDSurv environment. Use CPython 3.10.x.
+
+# Numerical computing and preprocessing
+numpy==1.24.4
+pandas==1.5.3
+scipy==1.10.1
+scikit-learn==1.2.2
+
+# RDSurv model
+torch==1.13.1
+
+# Statistical survival models, metrics, and datasets
+lifelines==0.26.4
+scikit-survival==0.21.0
+SurvSet==0.2.9
+
+# Benchmark outputs
+matplotlib==3.7.5
